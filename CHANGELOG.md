@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/samuel-videau/absinthe-sdk/compare/v1.0.0...v1.0.1) (2024-06-02)
+
+
+### Bug Fixes
+
+* force patch release ([543af33](https://github.com/samuel-videau/absinthe-sdk/commit/543af33058029314e5fa294825dbed4d0430e2c9))
+
 # 1.0.0 (2024-06-02)
 
 
