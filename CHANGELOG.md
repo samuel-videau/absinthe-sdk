@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/samuel-videau/absinthe-sdk/compare/v1.0.4...v1.0.5) (2024-06-02)
+
+
+### Bug Fixes
+
+* export types ([eef4709](https://github.com/samuel-videau/absinthe-sdk/commit/eef4709527608ba111bbb5c6ff5aee2d3f0763ee))
+
 ## [1.0.4](https://github.com/samuel-videau/absinthe-sdk/compare/v1.0.3...v1.0.4) (2024-06-02)
 
 
