@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/samuel-videau/absinthe-sdk/compare/v1.0.3...v1.0.4) (2024-06-02)
+
+
+### Bug Fixes
+
+* correct npmignore ([ce5003d](https://github.com/samuel-videau/absinthe-sdk/commit/ce5003d8eeb3859d4287de052e99a61df84e46e2))
+
 ## [1.0.3](https://github.com/samuel-videau/absinthe-sdk/compare/v1.0.2...v1.0.3) (2024-06-02)
 
 
