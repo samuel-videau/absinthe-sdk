@@ -1,8 +1,6 @@
 .vscode
-node_modules
-src
-api
-types
+./node_modules
+./src
 .env
 .eslintrc.js
 .gitignore
