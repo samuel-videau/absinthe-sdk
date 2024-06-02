@@ -1,1 +1,1 @@
-export const DEFAULT_API_URL = 'https://api.absinthe.io';
+export const DEFAULT_API_URL = 'https://absinthe-api-ten.vercel.app';
