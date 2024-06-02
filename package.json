@@ -1,6 +1,6 @@
 {
   "name": "sam-absinthe-sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "SDK for the Absinthe API",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
