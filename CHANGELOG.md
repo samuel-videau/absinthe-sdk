@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/samuel-videau/absinthe-sdk/compare/v1.0.7...v1.0.8) (2024-06-02)
+
+
+### Bug Fixes
+
+* default api url ([7233b61](https://github.com/samuel-videau/absinthe-sdk/commit/7233b6144b327fd9476740d6f4d1ec83b2738051))
+
 ## [1.0.7](https://github.com/samuel-videau/absinthe-sdk/compare/v1.0.6...v1.0.7) (2024-06-02)
 
 
