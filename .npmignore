@@ -1,0 +1,14 @@
+.vscode
+node_modules
+src
+api
+types
+.env
+.eslintrc.js
+.gitignore
+.prettierrc
+tsconfig.json
+yarn.lock
+*.log
+*.ts
+*.tsx

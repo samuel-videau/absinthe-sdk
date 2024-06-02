@@ -1,7 +1,7 @@
 import axios, { AxiosInstance } from 'axios';
 
-import { ENV_VAR, getEnvOrThrow } from './globals';
 import { Points } from './types/points';
+import { DEFAULT_API_URL } from './globals';
 
 export class AbsintheSdk {
   private axiosInstance: AxiosInstance;
@@ -10,7 +10,7 @@ export class AbsintheSdk {
   constructor(apiKey: string, campaignId: number) {
     this.campaignId = campaignId;
     this.axiosInstance = axios.create({
-      baseURL: getEnvOrThrow(ENV_VAR.API_URL),
+      baseURL: DEFAULT_API_URL,
       headers: {
         Authorization: `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
