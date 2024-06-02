@@ -7,7 +7,7 @@ Welcome to the Absinthe SDK! This SDK provides an interface to interact with the
 Install the SDK via npm:
 
 ```bash
-npm install absinthe-sdk
+npm install sam-absinthe-sdk
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install absinthe-sdk
 First, import and initialize the SDK with your API key and campaign ID:
 
 ```typescript
-import AbsintheSdk from 'absinthe-sdk';
+import AbsintheSdk from 'sam-absinthe-sdk';
 
 const apiKey = 'your-api-key';
 const campaignId = 123;

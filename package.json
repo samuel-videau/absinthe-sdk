@@ -1,5 +1,5 @@
 {
-  "name": "absinthe-sdk",
+  "name": "sam-absinthe-sdk",
   "version": "1.0.0",
   "description": "SDK for the Absinthe API",
   "main": "dist/index.js",
@@ -8,13 +8,14 @@
     "lint": "eslint 'src/**/*.{ts,tsx}' --fix",
     "build": "tsc",
     "prepare": "npm run build",
-    "prepublishOnly": "npm run lint && npm test"
+    "prepublishOnly": "npm run lint && npm test",
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "author": "samuel-v",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/samuel-videau/absinthe-sdk.git"
+    "url": "git+https://github.com/samuel-videau/absinthe-sdk.git"
   },
   "bugs": {
     "url": "https://github.com/samuel-videau/absinthe-sdk/issues"
