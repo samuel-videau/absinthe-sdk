@@ -1,5 +1,5 @@
 export interface Points {
-  id: number; 
+  id: number;
   address: string;
   points: number;
   eventName: string;

@@ -1,1 +1,1 @@
-export * from './absinthe-sdk'
+export * from './absinthe-sdk';
