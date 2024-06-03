@@ -14,15 +14,16 @@ npm install sam-absinthe-sdk
 
 ### Initialization
 
-First, import and initialize the SDK with your API key and campaign ID:
+First, import and initialize the SDK with your API key, campaign ID, and optionally, a custom API URL:
 
 ```typescript
 import AbsintheSdk from 'sam-absinthe-sdk';
 
 const apiKey = 'your-api-key';
 const campaignId = 123;
+const customApiUrl = 'https://custom-api-url.com'; // Optional
 
-const absinthe = new AbsintheSdk(apiKey, campaignId);
+const absinthe = new AbsintheSdk(apiKey, campaignId, customApiUrl);
 ```
 
 ### Methods
@@ -62,11 +63,12 @@ absinthe.getPoints(address)
 #### Constructor
 
 ```typescript
-new AbsintheSdk(apiKey: string, campaignId: number)
+new AbsintheSdk(apiKey: string, campaignId: number, customApiUrl?: string)
 ```
 
 - `apiKey`: Your Absinthe API key.
 - `campaignId`: The ID of your campaign.
+- `customApiUrl`: Optional custom API URL.
 
 #### Methods
 
