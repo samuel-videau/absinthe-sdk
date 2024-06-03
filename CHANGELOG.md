@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/samuel-videau/absinthe-sdk/compare/v1.2.0...v1.2.1) (2024-06-03)
+
+
+### Bug Fixes
+
+* remove comments false ([b97ef76](https://github.com/samuel-videau/absinthe-sdk/commit/b97ef76c351152abda51a5dd434a779f43ad6d43))
+
 # [1.2.0](https://github.com/samuel-videau/absinthe-sdk/compare/v1.1.0...v1.2.0) (2024-06-03)
 
 
