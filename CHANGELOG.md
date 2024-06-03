@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/samuel-videau/absinthe-sdk/compare/v1.2.1...v1.2.2) (2024-06-03)
+
+
+### Bug Fixes
+
+* get address with to lowercase ([e672dca](https://github.com/samuel-videau/absinthe-sdk/commit/e672dca7d4b4fbeede5461211d3ea33588cdba9d))
+
 ## [1.2.1](https://github.com/samuel-videau/absinthe-sdk/compare/v1.2.0...v1.2.1) (2024-06-03)
 
 
