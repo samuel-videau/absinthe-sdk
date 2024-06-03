@@ -8,10 +8,10 @@ export class AbsintheSdk {
   private axiosInstance: AxiosInstance;
   private campaignId: number;
 
-  constructor(apiKey: string, campaignId: number) {
+  constructor(apiKey: string, campaignId: number, customApiUrl?: string) {
     this.campaignId = campaignId;
     this.axiosInstance = axios.create({
-      baseURL: DEFAULT_API_URL,
+      baseURL: customApiUrl || DEFAULT_API_URL,
       headers: {
         Authorization: `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
