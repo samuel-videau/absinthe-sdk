@@ -56,7 +56,7 @@ export class AbsintheSdk {
     }
 
     try {
-      address = getAddress(pointsData.address);
+      address = getAddress(pointsData.address.toLocaleLowerCase());
     } catch (e) {
       throw new Error('Invalid address');
     }
@@ -84,7 +84,7 @@ export class AbsintheSdk {
     let address_: string;
 
     try {
-      address_ = getAddress(address);
+      address_ = getAddress(address.toLocaleLowerCase());
     } catch (e) {
       throw new Error('Invalid address');
     }
