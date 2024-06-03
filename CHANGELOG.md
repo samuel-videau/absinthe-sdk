@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/samuel-videau/absinthe-sdk/compare/v1.1.0...v1.2.0) (2024-06-03)
+
+
+### Features
+
+* jsdoc ([758f324](https://github.com/samuel-videau/absinthe-sdk/commit/758f324c6b849489e8029f165fa293e5bed1a82f))
+
 # [1.1.0](https://github.com/samuel-videau/absinthe-sdk/compare/v1.0.8...v1.1.0) (2024-06-03)
 
 
