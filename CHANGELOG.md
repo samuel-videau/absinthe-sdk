@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/samuel-videau/absinthe-sdk/compare/v1.0.8...v1.1.0) (2024-06-03)
+
+
+### Features
+
+* custom url on initialisation ([d760293](https://github.com/samuel-videau/absinthe-sdk/commit/d760293fa8d7b14f5d9502c4e6a922aa5dce11c9))
+* input checks ([4f02b27](https://github.com/samuel-videau/absinthe-sdk/commit/4f02b2740f36b83b46f374bd554b0d69f1d956af))
+
 ## [1.0.8](https://github.com/samuel-videau/absinthe-sdk/compare/v1.0.7...v1.0.8) (2024-06-02)
 
 
