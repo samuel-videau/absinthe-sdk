@@ -1,4 +1,5 @@
 import axios, { AxiosInstance } from 'axios';
+import { isAddress } from 'ethers';
 
 import { Points } from './types/points';
 import { DEFAULT_API_URL } from './globals';
@@ -22,6 +23,16 @@ export class AbsintheSdk {
     eventName: string,
     pointsData: { points: number; address: string; metadata?: object },
   ): Promise<Points> {
+    if (!eventName) throw new Error('Event name is required');
+    if (!pointsData.points) throw new Error('Points is required');
+    if (pointsData.metadata) {
+      try {
+        JSON.stringify(pointsData.metadata);
+      } catch (e) {
+        throw new Error('Metadata must be a valid JSON object');
+      }
+    }
+    if (!isAddress(pointsData.address)) throw new Error('Invalid address');
     const response = await this.axiosInstance.post<Points>('/points', {
       ...pointsData,
       eventName,
@@ -33,6 +44,7 @@ export class AbsintheSdk {
   }
 
   async getPoints(address: string, eventName?: string): Promise<Points[]> {
+    if (!isAddress(address)) throw new Error('Invalid address');
     const response = await this.axiosInstance.get<Points[]>('/points', {
       params: { address, eventName, campaignId: this.campaignId },
     });
